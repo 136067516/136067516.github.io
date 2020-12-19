@@ -1,0 +1,74 @@
+{
+    "paths": {},
+    "uuids": [
+        "0a8z+LRRJFL4/64Bdc7nZ8",
+        "11uCRMttlFd7N+YnuVInhI",
+        "29R15VA4dJzZzEHiyYl1Er",
+        "3e2Ug6031GmYdik5kQw+En",
+        "42ZifUFO9HG6/unBZYJRqs",
+        "49LBk7l6RC87epam5M7MDp",
+        "80x7HnHfdPx5TlxTBzhCDt",
+        "8c0fRTwHtH8pQx2grY3UeO",
+        "8fi6VPcPZMoYbZ3dvYXnad",
+        "97fP6bIcdJjrBgVBgAURqL",
+        "a70y/BSilJHqXiCJIGPTXQ",
+        "c6tf0Tan9Bh4cWEYnl0Twn",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f3d5R3fb9HUZAvmFlzcgFS"
+    ],
+    "scenes": {
+        "db://assets/game.fire": "8c0fRTwHtH8pQx2grY3UeO"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "060fd5f1d": [
+            "11uCRMttlFd7N+YnuVInhI",
+            "29R15VA4dJzZzEHiyYl1Er",
+            "42ZifUFO9HG6/unBZYJRqs",
+            "49LBk7l6RC87epam5M7MDp",
+            "8c0fRTwHtH8pQx2grY3UeO",
+            "8fi6VPcPZMoYbZ3dvYXnad",
+            "97fP6bIcdJjrBgVBgAURqL",
+            "a70y/BSilJHqXiCJIGPTXQ"
+        ],
+        "0cabef185": [
+            "0a8z+LRRJFL4/64Bdc7nZ8",
+            "3e2Ug6031GmYdik5kQw+En",
+            "80x7HnHfdPx5TlxTBzhCDt",
+            "c6tf0Tan9Bh4cWEYnl0Twn",
+            "f3d5R3fb9HUZAvmFlzcgFS"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "060fd5f1d",
+            "71579",
+            "0cabef185",
+            "1a784"
+        ],
+        "native": [
+            "0a8z+LRRJFL4/64Bdc7nZ8",
+            "0c687",
+            "3e2Ug6031GmYdik5kQw+En",
+            "5fdc8",
+            "80x7HnHfdPx5TlxTBzhCDt",
+            "c0cb3",
+            "c6tf0Tan9Bh4cWEYnl0Twn",
+            "4b0bd",
+            "f3d5R3fb9HUZAvmFlzcgFS",
+            "c1880"
+        ]
+    }
+}
