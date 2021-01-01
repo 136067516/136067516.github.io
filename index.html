@@ -5,36 +5,52 @@
 
   <title>Cocos Creator | start_project</title>
 
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
   <meta name="full-screen" content="yes"/>
-  <meta name="screen-orientation" content="portrait"/>
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
   
-  <meta name="renderer" content="webkit"/>
-  <meta name="force-rendering" content="webkit"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  
-  <link rel="stylesheet" type="text/css" href="style-desktop.dfd76.css"/>
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content=""/>
+  <meta name="x5-orientation" content="">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.6e9cd.css"/>
   <link rel="icon" href="favicon.8de18.ico"/>
 </head>
 <body>
-<h1 class="header">start_project</h1>
-
-<div id="GameDiv"  style="width:960px; height: 640px;">
-  <canvas id="GameCanvas" width="960" height="640"></canvas>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
   <div id="splash">
     <div class="progress-bar stripes">
       <span style="width: 0%"></span>
     </div>
   </div>
-</div>
 
-<p class="footer">Made with <a href="https://www.cocos.com/products#CocosCreator" title="Cocos Creator">Cocos Creator</a></p>
+<script src="src/settings.bab51.js" charset="utf-8"></script>
 
-<script src="src/settings.2916e.js" charset="utf-8"></script>
-<script src="main.9c13c.js" charset="utf-8"></script>
+<script src="main.ee3d2.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
@@ -60,7 +76,7 @@
       document.body.appendChild(domScript);
     }
 
-    loadScript(debug ? 'cocos2d-js.18ade.js' : 'cocos2d-js-min.js', function () {
+    loadScript(debug ? 'cocos2d-js.f5adc.js' : 'cocos2d-js-min.js', function () {
       if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
         loadScript(debug ? 'physics.5724c.js' : 'physics-min.js', window.boot);
       }
